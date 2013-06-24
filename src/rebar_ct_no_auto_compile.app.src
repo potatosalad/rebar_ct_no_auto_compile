@@ -1,0 +1,6 @@
+{application, rebar_ct_no_auto_compile,
+ [{description, "Moves compiled files around so -no_auto_compile works with ct"},
+  {vsn, "0.0.1"},
+  {applications,
+   [kernel,
+    stdlib]}]}.

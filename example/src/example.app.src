@@ -1,0 +1,9 @@
+{application, example,
+ [{description, "Example app"},
+  {vsn, "1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib]},
+  {mod, {example_app, []}},
+  {env, []}]}.
